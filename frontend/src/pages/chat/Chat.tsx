@@ -10,6 +10,7 @@ import { isEmpty } from "lodash-es";
 
 import styles from "./Chat.module.css";
 import Azure from "../../assets/Azure.svg";
+import XX from "../../assets/Xebia_Xpirit_logo_2023_DEF.svg"
 
 import {
     ChatMessage,
@@ -581,7 +582,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Azure}
+                                    src={XX}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
